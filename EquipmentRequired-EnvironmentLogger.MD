@@ -1,0 +1,29 @@
+The Following Items are required to allow the use of the Arduino Sketch....
+
+Arduino      - ANY Arduino I suggest the Mini Pro as this offers better battery life.
+               5V allows more voltage loss through the Sensor Cabling simplifying everything.
+
+
+DHT22        - The sketch is set for Minimum of 2, but as many as you like just repeat the steps
+               for the 2 Sensors addding the pin numbers for each additional Sensor (Plus 10K).
+        
+DS18B20      - These come in loads of forms but they all use the same data pin, at least 1 is Needed.
+               This Sketch is set for 6 * DS18B20, data will be repeated for less Sensors, Add Print
+               Statements for More.
+
+
+SD Interface - There are a number of these ANY SPI Version TF or SD 2Gb or Larger
+               Card Must have VALID Partition. ANY SD - Ethershield etc.
+               
+
+DS1307 RTC  - This requires the DS1307 module attached to the I2C pins A4 & A5
+              the time must be set in the RTC.
+
+
+Battery Pack - The Mini is Very Tolerant and any power brick with 6-12V
+               or 6 * AA Batteries in a Holder Via RAW In.
+               
+               
+               
+
+
