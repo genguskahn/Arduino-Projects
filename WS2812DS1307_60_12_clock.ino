@@ -84,7 +84,6 @@ void loop () {
   dialval = Clock.hour();
   if(hourval > 11) hourval -= 12; // This clock is 12 hour, if 13-23, convert to 0-11
   if(dialval > 11) dialval -= 12; // This clock is 12 hour, if 13-23, convert to 0-11
-  dialval =   dialval - 1;  // Adjust the dialval (Hour) to reflect the dial position
   hourval = ((((hourval*60) / 12) - 1)+(minuteval / 12));  //Represent the hour number on dial 12 minute steps.
   minuteval =   minuteval - 1; // Adjust the minute to reflect the dial position
   for(uint8_t i=0; i<strip.numPixels(); i++) {
